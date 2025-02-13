@@ -34,6 +34,9 @@
     "test-skip-logic"
   ],
   "configs": {
+    "tutorial-hello-world": {
+      "path": "tutorial-hello-world/config.json"
+    },
     "tutorial": {
       "path": "tutorial/config.json"
     },
