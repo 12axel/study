@@ -26,9 +26,14 @@
     "sidebar": true
   },
   "components": {
+    "welcome":{
+      "type": "markdown",
+      "path": "tutorial-hello-world/assets/welcome.md",
+      "response": []
+    }
   },
   "sequence": {
     "order": "fixed",
-    "components": []
+    "components": ["welcome"]
   }
 }
