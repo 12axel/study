@@ -30,10 +30,21 @@
       "type": "markdown",
       "path": "tutorial-hello-world/assets/welcome.md",
       "response": []
+    },
+    "consent": {
+      "type": "markdown",
+      "path": "tutorial-hello-world/assets/consent.md",
+      "response": [
+        {
+          "type": "shortText",
+          "id": "name",
+          "prompt": "Your signature"
+        }
+      ]
     }
   },
   "sequence": {
     "order": "fixed",
-    "components": ["welcome"]
+    "components": ["welcome", "consent"]
   }
 }
