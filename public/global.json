@@ -8,6 +8,7 @@
     "example-mvnv",
     "example-fairness-jnd",
     "demo-html",
+    "demo-html-copy",
     "demo-html-input",
     "demo-survey",
     "demo-training",
@@ -57,6 +58,9 @@
     },
     "demo-html": {
       "path": "demo-html/config.json"
+    },
+    "demo-html-copy": {
+      "path": "demo-html-copy/config.json"
     },
     "demo-html-input": {
       "path": "demo-html-input/config.json"
